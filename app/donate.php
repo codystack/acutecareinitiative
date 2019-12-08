@@ -50,10 +50,17 @@
 								    <label for="default-switch"></label>
                                 </div>
 						</div>
-                        <div class="input-group">
-                            <input class="input--style-2" type="text" placeholder="Name" name="name">
-                        </div>
                         <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input class="input--style-2" type="text" placeholder="First Name" name="first-name">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input class="input--style-2" type="text" placeholder="Last Name" name="last-name">
+                                </div>
+                            </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <input class="input--style-2 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
@@ -93,7 +100,7 @@
                             </div>
                         </div>
                         <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" type="submit">Search</button>
+                            <button class="btn btn--radius btn--green" type="submit">Donate Now</button>
                         </div>
                     </form>
                 </div>
