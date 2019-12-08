@@ -28,6 +28,7 @@
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -42,6 +43,13 @@
                 <div class="card-body">
                     <h2 class="title">Support Our cause</h2>
                     <form method="POST">
+                        <div class="switch-wrap d-flex justify-content-between">
+                            <p>Donate Anonymously</p>
+								<div class="primary-switch">
+                                    <input type="checkbox" id="default-switch">
+								    <label for="default-switch"></label>
+                                </div>
+						</div>
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Name" name="name">
                         </div>
