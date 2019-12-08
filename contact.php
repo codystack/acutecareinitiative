@@ -1,15 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Non profit</title>
+    <title>Contact us :: Acute Care Initiative&trade;</title>
     <meta name="description" content="">
+    <meta name="author" content="WebifyNG, Webify">
+    <meta name="description" content="ACI is a bootstrap charity organisation with the sole objective of improving lives of underprivileged masses in areas of feeding, hygiene & coaching."/>
+    <meta name="keywords" content="Ngos in Nigeria, Charity, Children"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/mChD0gq.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -27,63 +30,9 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
 
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center justify-content-between no-gutters">
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-7">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="index.html">home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="causes.html">causes</a></li>
-                                        <li><a href="impact.html">impact</a></li>
 
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="causes-details.html">causes-details</a></li>
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="active" href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="donate_now">
-                                <a href="#" class="boxed-btn">Donate Now</a>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header-end -->
+<?php include 'header.php'; ?>
    
     <!-- breadcam_area_start -->
     <div class="breadcam_area bradcam_bg">
@@ -107,30 +56,30 @@
                     <script>
                         function initMap() {
                             var uluru = {
-                                lat: -25.363,
-                                lng: 131.044
+                                lat: 4.821113,
+                                lng: 7.026641
                             };
                             var grayStyles = [{
                                     featureType: "all",
                                     stylers: [{
-                                            saturation: -90
+                                            saturation: 2
                                         },
                                         {
-                                            lightness: 50
+                                            lightness: 1
                                         }
                                     ]
                                 },
                                 {
                                     elementType: 'labels.text.fill',
                                     stylers: [{
-                                        color: '#ccdee9'
+                                        color: '#4492c2'
                                     }]
                                 }
                             ];
                             var map = new google.maps.Map(document.getElementById('map'), {
                                 center: {
-                                    lat: -31.197,
-                                    lng: 150.744
+                                    lat: 4.821113,
+                                    lng: 7.026641
                                 },
                                 zoom: 9,
                                 styles: grayStyles,
@@ -138,7 +87,7 @@
                             });
                         }
                     </script>
-                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDODKndJ8udk9xrwV_9KZwzziQOgsAR3Ew&amp;callback=initMap">
                     </script>
     
                 </div>
@@ -151,11 +100,6 @@
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Name"></textarea>
-                                    </div>
-                                </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
@@ -171,6 +115,11 @@
                                         <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Name"></textarea>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group mt-3">
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
@@ -181,21 +130,21 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
+                                <h3>Close 8, Elekahia housing Estate,</h3>
+                                <p>Port Harcourt, Rivers State.</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
+                                <h3>+234(0)803-340-0866</h3>
                                 <p>Mon to Fri 9am to 6pm</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>support@colorlib.com</h3>
+                                <h3>info@acutecareinitiative.org</h3>
                                 <p>Send us your query anytime!</p>
                             </div>
                         </div>
@@ -205,94 +154,7 @@
         </section>
     <!-- ================ contact section end ================= -->
     
-    <!-- footer_start -->
-    <footer class="footer">
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-md-6 col-lg-3">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Join With Us
-                                </h3>
-                                <p class="footer_text doanar"> <a class="first" href="#">Become a Volunteer</a> <br><a
-                                        href="#">Become a Donner</a></p>
-    
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 col-lg-3">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    address
-                                </h3>
-                                <p class="footer_text">200, A-block, Green road, USA <br>
-                                    +10 367 267 2678 <br>
-                                    <a class="domain" href="#">contact@nonprofit.com</a></p>
-                                <div class="socail_links">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-facebook-square"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-6 col-lg-2">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Navigation
-                                </h3>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Rooms</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">News</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Newsletter
-                                </h3>
-                                <form action="#" class="newsletter_form">
-                                    <input type="text" placeholder="Enter your mail">
-                                    <button type="submit">Sign Up</button>
-                                </form>
-                                <p class="newsletter_text">Subscribe newsletter to get updates</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copy-right_text">
-                <div class="container">
-                    <div class="footer_border"></div>
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <p class="copy_right text-center">
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer_end -->
+<?php include'footer.php'; ?>
         
         <!-- JS here -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
