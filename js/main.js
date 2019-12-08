@@ -286,4 +286,5 @@ mailChimp();
             $("#search_input").focus();
         });
 
+
 })(jQuery);	

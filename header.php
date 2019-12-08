@@ -15,7 +15,7 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="\">home</a></li>
+                                        <li><a class="btn" href="\">home</a></li>
                                         <li><a href="about">About</a></li>
                                         <li><a href="causes">causes</a></li>
                                         <li><a href="gallery">Gallery</a></li>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="donate_now">
-                                <a href="#" class="boxed-btn">Donate Now</a>
+                                <a href="app/donate" class="boxed-btn">Donate Now</a>
                             </div>
                         </div>
                         <div class="col-12">

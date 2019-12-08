@@ -234,7 +234,7 @@
                         <p>Inspires employees and organizations to support causes they care <br>
                             about. We do this to bring more resources to the nonprofits that are
                             changing our world.</p>
-                        <a class="boxed-btn4" href="#">Join Now</a>
+                        <a class="boxed-btn4" href="volunteer">Join Now</a>
                     </div>
                 </div>
             </div>

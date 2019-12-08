@@ -44,7 +44,7 @@
                                 You Care About</h3>
                             <p>At Charity United we believe that all children in the world have the right to be <br>
                                 cared for and the right to be protected </p>
-                            <a href="#" class="boxed-btn2">Join Us Today</a>
+                            <a href="volunteer" class="boxed-btn2">Join Us Today</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 <h4>$1530</h4>
                             </div>
                             <div class="doante_btn">
-                                <a href="#" class="boxed_btn3">Donate Now</a>
+                                <a href="app/donate" class="boxed_btn3">Donate Now</a>
                             </div>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                                         <h3>$1530</h3>
                                     </div>
                                 </div>
-                                <a href="#" class="boxed-btn4 ">Donate Now</a>
+                                <a href="app/donate" class="boxed-btn4 ">Donate Now</a>
                             </div>
                         </div>
                         <div class="single_help_wrap">
@@ -247,7 +247,7 @@
                                         <h3>$1530</h3>
                                     </div>
                                 </div>
-                                <a href="#" class="boxed-btn4 ">Donate Now</a>
+                                <a href="app/donate" class="boxed-btn4 ">Donate Now</a>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                         <p>Inspires employees and organizations to support causes they care <br>
                             about. We do this to bring more resources to the nonprofits that are
                             changing our world.</p>
-                        <a class="boxed-btn4" href="#">Join Now</a>
+                        <a class="boxed-btn4" href="volunteer">Join Now</a>
                     </div>
                 </div>
             </div>
