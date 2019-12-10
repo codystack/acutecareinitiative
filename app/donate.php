@@ -49,7 +49,15 @@
                                     <input type="checkbox" id="default-switch">
 								    <label for="default-switch"></label>
                                 </div>
-						</div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="amount-options col-xs-4">
+                                <button class="btn btn3--radius btn3--green" type="submit" id="btn1">₦1,000</button>
+                                <button class="btn btn3--radius btn3--green" type="submit" id="btn2">₦3,000</button>
+                                <button class="btn btn3--radius btn3--green" type="submit" id="btn3">₦5,000</button>
+                                <button class="btn btn3--radius btn3--green" type="submit" id="btn4">₦10,000</button>
+                            </div>
+                        </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">

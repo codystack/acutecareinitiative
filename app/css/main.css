@@ -189,6 +189,11 @@ h6 {
   padding-bottom: 100px;
 }
 
+.amount-options {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 /* ==========================================================================
    #WRAPPER
    ========================================================================== */
@@ -265,6 +270,37 @@ h6 {
 
 .btn2--green:hover {
   background: #fff;
+}
+
+
+.btn3 {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn3--radius {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+
+.btn3--green {
+  background: #A70000;
+}
+
+.btn3--green:hover {
+  background: #700101;
 }
 /* ==========================================================================
    #DATE PICKER
